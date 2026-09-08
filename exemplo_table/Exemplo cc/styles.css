@@ -1,0 +1,21 @@
+*{ /*Seletor universal*/
+    margin: 0; /*Margin é o espaço externo */
+    padding: 0; /*Padding é o espaço interno */
+    box-sizing: border-box;
+}
+
+p { /*Seletor por tag*/
+    color: darkred;
+
+} /*Seletor por classe*/
+ 
+.exemplo-classe{
+    color: aqua;
+}
+
+/*Seletor por ID*/
+#email{
+    background-color: darkgray;
+    height: 20px;
+    border-radius: 25px;
+}
